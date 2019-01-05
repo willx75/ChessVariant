@@ -122,6 +122,303 @@ ChessVariants/fast:
 	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/build
 .PHONY : ChessVariants/fast
 
+Case.obj: Case.cpp.obj
+
+.PHONY : Case.obj
+
+# target to build an object file
+Case.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Case.cpp.obj
+.PHONY : Case.cpp.obj
+
+Case.i: Case.cpp.i
+
+.PHONY : Case.i
+
+# target to preprocess a source file
+Case.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Case.cpp.i
+.PHONY : Case.cpp.i
+
+Case.s: Case.cpp.s
+
+.PHONY : Case.s
+
+# target to generate assembly for a file
+Case.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Case.cpp.s
+.PHONY : Case.cpp.s
+
+Cavalier.obj: Cavalier.cpp.obj
+
+.PHONY : Cavalier.obj
+
+# target to build an object file
+Cavalier.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Cavalier.cpp.obj
+.PHONY : Cavalier.cpp.obj
+
+Cavalier.i: Cavalier.cpp.i
+
+.PHONY : Cavalier.i
+
+# target to preprocess a source file
+Cavalier.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Cavalier.cpp.i
+.PHONY : Cavalier.cpp.i
+
+Cavalier.s: Cavalier.cpp.s
+
+.PHONY : Cavalier.s
+
+# target to generate assembly for a file
+Cavalier.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Cavalier.cpp.s
+.PHONY : Cavalier.cpp.s
+
+Fou.obj: Fou.cpp.obj
+
+.PHONY : Fou.obj
+
+# target to build an object file
+Fou.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Fou.cpp.obj
+.PHONY : Fou.cpp.obj
+
+Fou.i: Fou.cpp.i
+
+.PHONY : Fou.i
+
+# target to preprocess a source file
+Fou.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Fou.cpp.i
+.PHONY : Fou.cpp.i
+
+Fou.s: Fou.cpp.s
+
+.PHONY : Fou.s
+
+# target to generate assembly for a file
+Fou.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Fou.cpp.s
+.PHONY : Fou.cpp.s
+
+Partie.obj: Partie.cpp.obj
+
+.PHONY : Partie.obj
+
+# target to build an object file
+Partie.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Partie.cpp.obj
+.PHONY : Partie.cpp.obj
+
+Partie.i: Partie.cpp.i
+
+.PHONY : Partie.i
+
+# target to preprocess a source file
+Partie.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Partie.cpp.i
+.PHONY : Partie.cpp.i
+
+Partie.s: Partie.cpp.s
+
+.PHONY : Partie.s
+
+# target to generate assembly for a file
+Partie.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Partie.cpp.s
+.PHONY : Partie.cpp.s
+
+Piece.obj: Piece.cpp.obj
+
+.PHONY : Piece.obj
+
+# target to build an object file
+Piece.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Piece.cpp.obj
+.PHONY : Piece.cpp.obj
+
+Piece.i: Piece.cpp.i
+
+.PHONY : Piece.i
+
+# target to preprocess a source file
+Piece.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Piece.cpp.i
+.PHONY : Piece.cpp.i
+
+Piece.s: Piece.cpp.s
+
+.PHONY : Piece.s
+
+# target to generate assembly for a file
+Piece.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Piece.cpp.s
+.PHONY : Piece.cpp.s
+
+Pion.obj: Pion.cpp.obj
+
+.PHONY : Pion.obj
+
+# target to build an object file
+Pion.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Pion.cpp.obj
+.PHONY : Pion.cpp.obj
+
+Pion.i: Pion.cpp.i
+
+.PHONY : Pion.i
+
+# target to preprocess a source file
+Pion.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Pion.cpp.i
+.PHONY : Pion.cpp.i
+
+Pion.s: Pion.cpp.s
+
+.PHONY : Pion.s
+
+# target to generate assembly for a file
+Pion.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Pion.cpp.s
+.PHONY : Pion.cpp.s
+
+Plateau.obj: Plateau.cpp.obj
+
+.PHONY : Plateau.obj
+
+# target to build an object file
+Plateau.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Plateau.cpp.obj
+.PHONY : Plateau.cpp.obj
+
+Plateau.i: Plateau.cpp.i
+
+.PHONY : Plateau.i
+
+# target to preprocess a source file
+Plateau.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Plateau.cpp.i
+.PHONY : Plateau.cpp.i
+
+Plateau.s: Plateau.cpp.s
+
+.PHONY : Plateau.s
+
+# target to generate assembly for a file
+Plateau.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Plateau.cpp.s
+.PHONY : Plateau.cpp.s
+
+Position.obj: Position.cpp.obj
+
+.PHONY : Position.obj
+
+# target to build an object file
+Position.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Position.cpp.obj
+.PHONY : Position.cpp.obj
+
+Position.i: Position.cpp.i
+
+.PHONY : Position.i
+
+# target to preprocess a source file
+Position.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Position.cpp.i
+.PHONY : Position.cpp.i
+
+Position.s: Position.cpp.s
+
+.PHONY : Position.s
+
+# target to generate assembly for a file
+Position.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Position.cpp.s
+.PHONY : Position.cpp.s
+
+Reine.obj: Reine.cpp.obj
+
+.PHONY : Reine.obj
+
+# target to build an object file
+Reine.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Reine.cpp.obj
+.PHONY : Reine.cpp.obj
+
+Reine.i: Reine.cpp.i
+
+.PHONY : Reine.i
+
+# target to preprocess a source file
+Reine.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Reine.cpp.i
+.PHONY : Reine.cpp.i
+
+Reine.s: Reine.cpp.s
+
+.PHONY : Reine.s
+
+# target to generate assembly for a file
+Reine.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Reine.cpp.s
+.PHONY : Reine.cpp.s
+
+Roi.obj: Roi.cpp.obj
+
+.PHONY : Roi.obj
+
+# target to build an object file
+Roi.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Roi.cpp.obj
+.PHONY : Roi.cpp.obj
+
+Roi.i: Roi.cpp.i
+
+.PHONY : Roi.i
+
+# target to preprocess a source file
+Roi.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Roi.cpp.i
+.PHONY : Roi.cpp.i
+
+Roi.s: Roi.cpp.s
+
+.PHONY : Roi.s
+
+# target to generate assembly for a file
+Roi.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Roi.cpp.s
+.PHONY : Roi.cpp.s
+
+Tour.obj: Tour.cpp.obj
+
+.PHONY : Tour.obj
+
+# target to build an object file
+Tour.cpp.obj:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Tour.cpp.obj
+.PHONY : Tour.cpp.obj
+
+Tour.i: Tour.cpp.i
+
+.PHONY : Tour.i
+
+# target to preprocess a source file
+Tour.cpp.i:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Tour.cpp.i
+.PHONY : Tour.cpp.i
+
+Tour.s: Tour.cpp.s
+
+.PHONY : Tour.s
+
+# target to generate assembly for a file
+Tour.cpp.s:
+	$(MAKE) -f CMakeFiles\ChessVariants.dir\build.make CMakeFiles/ChessVariants.dir/Tour.cpp.s
+.PHONY : Tour.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +455,39 @@ help:
 	@echo ... ChessVariants
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Case.obj
+	@echo ... Case.i
+	@echo ... Case.s
+	@echo ... Cavalier.obj
+	@echo ... Cavalier.i
+	@echo ... Cavalier.s
+	@echo ... Fou.obj
+	@echo ... Fou.i
+	@echo ... Fou.s
+	@echo ... Partie.obj
+	@echo ... Partie.i
+	@echo ... Partie.s
+	@echo ... Piece.obj
+	@echo ... Piece.i
+	@echo ... Piece.s
+	@echo ... Pion.obj
+	@echo ... Pion.i
+	@echo ... Pion.s
+	@echo ... Plateau.obj
+	@echo ... Plateau.i
+	@echo ... Plateau.s
+	@echo ... Position.obj
+	@echo ... Position.i
+	@echo ... Position.s
+	@echo ... Reine.obj
+	@echo ... Reine.i
+	@echo ... Reine.s
+	@echo ... Roi.obj
+	@echo ... Roi.i
+	@echo ... Roi.s
+	@echo ... Tour.obj
+	@echo ... Tour.i
+	@echo ... Tour.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

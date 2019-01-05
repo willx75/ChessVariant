@@ -69,19 +69,184 @@ CMakeFiles/ChessVariants.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\main.cpp -o CMakeFiles\ChessVariants.dir\main.cpp.s
 
+CMakeFiles/ChessVariants.dir/Case.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Case.cpp.obj: ../Case.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ChessVariants.dir/Case.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Case.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Case.cpp
+
+CMakeFiles/ChessVariants.dir/Case.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Case.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Case.cpp > CMakeFiles\ChessVariants.dir\Case.cpp.i
+
+CMakeFiles/ChessVariants.dir/Case.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Case.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Case.cpp -o CMakeFiles\ChessVariants.dir\Case.cpp.s
+
+CMakeFiles/ChessVariants.dir/Plateau.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Plateau.cpp.obj: ../Plateau.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ChessVariants.dir/Plateau.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Plateau.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Plateau.cpp
+
+CMakeFiles/ChessVariants.dir/Plateau.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Plateau.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Plateau.cpp > CMakeFiles\ChessVariants.dir\Plateau.cpp.i
+
+CMakeFiles/ChessVariants.dir/Plateau.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Plateau.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Plateau.cpp -o CMakeFiles\ChessVariants.dir\Plateau.cpp.s
+
+CMakeFiles/ChessVariants.dir/Cavalier.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Cavalier.cpp.obj: ../Cavalier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ChessVariants.dir/Cavalier.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Cavalier.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Cavalier.cpp
+
+CMakeFiles/ChessVariants.dir/Cavalier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Cavalier.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Cavalier.cpp > CMakeFiles\ChessVariants.dir\Cavalier.cpp.i
+
+CMakeFiles/ChessVariants.dir/Cavalier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Cavalier.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Cavalier.cpp -o CMakeFiles\ChessVariants.dir\Cavalier.cpp.s
+
+CMakeFiles/ChessVariants.dir/Piece.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Piece.cpp.obj: ../Piece.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ChessVariants.dir/Piece.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Piece.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Piece.cpp
+
+CMakeFiles/ChessVariants.dir/Piece.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Piece.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Piece.cpp > CMakeFiles\ChessVariants.dir\Piece.cpp.i
+
+CMakeFiles/ChessVariants.dir/Piece.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Piece.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Piece.cpp -o CMakeFiles\ChessVariants.dir\Piece.cpp.s
+
+CMakeFiles/ChessVariants.dir/Pion.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Pion.cpp.obj: ../Pion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ChessVariants.dir/Pion.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Pion.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Pion.cpp
+
+CMakeFiles/ChessVariants.dir/Pion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Pion.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Pion.cpp > CMakeFiles\ChessVariants.dir\Pion.cpp.i
+
+CMakeFiles/ChessVariants.dir/Pion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Pion.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Pion.cpp -o CMakeFiles\ChessVariants.dir\Pion.cpp.s
+
+CMakeFiles/ChessVariants.dir/Position.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Position.cpp.obj: ../Position.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ChessVariants.dir/Position.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Position.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Position.cpp
+
+CMakeFiles/ChessVariants.dir/Position.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Position.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Position.cpp > CMakeFiles\ChessVariants.dir\Position.cpp.i
+
+CMakeFiles/ChessVariants.dir/Position.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Position.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Position.cpp -o CMakeFiles\ChessVariants.dir\Position.cpp.s
+
+CMakeFiles/ChessVariants.dir/Roi.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Roi.cpp.obj: ../Roi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ChessVariants.dir/Roi.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Roi.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Roi.cpp
+
+CMakeFiles/ChessVariants.dir/Roi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Roi.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Roi.cpp > CMakeFiles\ChessVariants.dir\Roi.cpp.i
+
+CMakeFiles/ChessVariants.dir/Roi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Roi.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Roi.cpp -o CMakeFiles\ChessVariants.dir\Roi.cpp.s
+
+CMakeFiles/ChessVariants.dir/Reine.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Reine.cpp.obj: ../Reine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ChessVariants.dir/Reine.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Reine.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Reine.cpp
+
+CMakeFiles/ChessVariants.dir/Reine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Reine.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Reine.cpp > CMakeFiles\ChessVariants.dir\Reine.cpp.i
+
+CMakeFiles/ChessVariants.dir/Reine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Reine.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Reine.cpp -o CMakeFiles\ChessVariants.dir\Reine.cpp.s
+
+CMakeFiles/ChessVariants.dir/Tour.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Tour.cpp.obj: ../Tour.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ChessVariants.dir/Tour.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Tour.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Tour.cpp
+
+CMakeFiles/ChessVariants.dir/Tour.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Tour.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Tour.cpp > CMakeFiles\ChessVariants.dir\Tour.cpp.i
+
+CMakeFiles/ChessVariants.dir/Tour.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Tour.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Tour.cpp -o CMakeFiles\ChessVariants.dir\Tour.cpp.s
+
+CMakeFiles/ChessVariants.dir/Fou.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Fou.cpp.obj: ../Fou.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ChessVariants.dir/Fou.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Fou.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Fou.cpp
+
+CMakeFiles/ChessVariants.dir/Fou.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Fou.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Fou.cpp > CMakeFiles\ChessVariants.dir\Fou.cpp.i
+
+CMakeFiles/ChessVariants.dir/Fou.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Fou.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Fou.cpp -o CMakeFiles\ChessVariants.dir\Fou.cpp.s
+
+CMakeFiles/ChessVariants.dir/Partie.cpp.obj: CMakeFiles/ChessVariants.dir/flags.make
+CMakeFiles/ChessVariants.dir/Partie.cpp.obj: ../Partie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ChessVariants.dir/Partie.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ChessVariants.dir\Partie.cpp.obj -c C:\Users\will2\CLionProjects\ChessVariants\Partie.cpp
+
+CMakeFiles/ChessVariants.dir/Partie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChessVariants.dir/Partie.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\will2\CLionProjects\ChessVariants\Partie.cpp > CMakeFiles\ChessVariants.dir\Partie.cpp.i
+
+CMakeFiles/ChessVariants.dir/Partie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChessVariants.dir/Partie.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\will2\CLionProjects\ChessVariants\Partie.cpp -o CMakeFiles\ChessVariants.dir\Partie.cpp.s
+
 # Object files for target ChessVariants
 ChessVariants_OBJECTS = \
-"CMakeFiles/ChessVariants.dir/main.cpp.obj"
+"CMakeFiles/ChessVariants.dir/main.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Case.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Plateau.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Cavalier.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Piece.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Pion.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Position.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Roi.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Reine.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Tour.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Fou.cpp.obj" \
+"CMakeFiles/ChessVariants.dir/Partie.cpp.obj"
 
 # External object files for target ChessVariants
 ChessVariants_EXTERNAL_OBJECTS =
 
 ChessVariants.exe: CMakeFiles/ChessVariants.dir/main.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Case.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Plateau.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Cavalier.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Piece.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Pion.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Position.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Roi.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Reine.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Tour.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Fou.cpp.obj
+ChessVariants.exe: CMakeFiles/ChessVariants.dir/Partie.cpp.obj
 ChessVariants.exe: CMakeFiles/ChessVariants.dir/build.make
 ChessVariants.exe: CMakeFiles/ChessVariants.dir/linklibs.rsp
 ChessVariants.exe: CMakeFiles/ChessVariants.dir/objects1.rsp
 ChessVariants.exe: CMakeFiles/ChessVariants.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ChessVariants.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\will2\CLionProjects\ChessVariants\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ChessVariants.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ChessVariants.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -80,6 +80,72 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Case.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Case.h">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Cavalier.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Cavalier.h">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Fou.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Fou.h">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Partie.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Partie.h">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Piece.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Piece.h">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Pion.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Pion.h">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Plateau.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Plateau.h">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Position.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Position.h">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Reine.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Reine.h">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Roi.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Roi.h">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Tour.cpp">
+			<Option target="ChessVariants"/>
+		</Unit>
+		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/Tour.h">
+			<Option target="ChessVariants"/>
+		</Unit>
 		<Unit filename="C:/Users/will2/CLionProjects/ChessVariants/main.cpp">
 			<Option target="ChessVariants"/>
 		</Unit>
