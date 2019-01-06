@@ -5,14 +5,14 @@
 #ifndef CHESSVARIANTS_PIECE_H
 #define CHESSVARIANTS_PIECE_H
 
+enum Figure {
+	Roi, Reine, Pion, Cavalier, Tour, Fou
+};
+enum Couleur {
+	Black, White
+};
 
 class Piece {
-    enum Figure {
-        Roi, Reine, Pion, Cavalier, Tour, Fou
-    };
-    enum Couleur {
-        Black, White
-    };
 
 protected:
 
@@ -20,12 +20,13 @@ protected:
     bool capture;
 
 public:
+    Piece();
     Piece(int color);
 
     int getType() const;
 
 
-    void capture();
+    void perform_capture();
 
     bool estCapture() const;
 

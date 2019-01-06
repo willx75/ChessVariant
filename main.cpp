@@ -1,11 +1,12 @@
 #include <iostream>
+#include "Plateau.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    string choix;
+    std::string choix;
     Plateau *plateau = new Plateau();
-    plateau->affichePlateau(plateau);
+    plateau->affichePlateau();
 
 
     std::cout << "************************************************" << std::endl;

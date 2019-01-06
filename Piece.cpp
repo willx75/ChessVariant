@@ -10,7 +10,7 @@ Piece::Piece(Couleur colour, Position position)
         : colour(colour), capture(false), moved(false), position(position) {
 }
 
-void capture() {
+void perform_capture() {
     this->capture = true ;
 }
 

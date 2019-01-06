@@ -6,8 +6,10 @@
 #define CHESSVARIANTS_PLATEAU_H
 
 
+#include <list>
 #include "Piece.h"
 #include "Position.h"
+#include "Deplacement.h"
 
 class Plateau {
 
@@ -19,14 +21,17 @@ public:
     /**
      * @param deplacement une liste de deplacement qui sont appliquer au plateau de jeu
      */
-    Plateau(std::list<Deplacement *> deplacement);
+    Plateau(std::list<Deplacement*> deplacement);
+    Plateau(std::list<Piece *> piece);
 
     //destructeur qui supprimera chaque piece du plateau
     virtual ~Plateau();
 
-    void affichePlateau(Plateau *board);
+    void affichePlateau();
 
 private:
+    Couleur currentColour;
+
     void printBordure() const;
 
     void printBas() const;
@@ -39,7 +44,7 @@ private:
 
     Piece *getPiece(Position position) const;
 
-    Piece* *creerPlateau() ;
+    Piece** creerPlateau() ;
 
     Piece **plateau;
 };

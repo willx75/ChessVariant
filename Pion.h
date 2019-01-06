@@ -6,9 +6,7 @@
 #define CHESSVARIANTS_PION_H
 
 
-class Pion {
-
-};
+class Pion {};
 
 
 #endif //CHESSVARIANTS_PION_H
