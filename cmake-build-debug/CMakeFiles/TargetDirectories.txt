@@ -1,3 +1,0 @@
-C:/Users/will2/CLionProjects/ChessVariants/cmake-build-debug/CMakeFiles/ChessVariants.dir
-C:/Users/will2/CLionProjects/ChessVariants/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/will2/CLionProjects/ChessVariants/cmake-build-debug/CMakeFiles/rebuild_cache.dir
