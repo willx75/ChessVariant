@@ -6,19 +6,25 @@
 #define CHESSVARIANTS_ROI_H
 
 
-class Roi :: Piece {
+#include "Piece.h"
+#include "Plateau.h"
+
+class Roi::
+
+public Piece {
 public:
 
-    std::string toString();
+std::string toString();
 
-    Roi(Piece::Couleur couleur, Position position );
-    );
+Roi(Piece::Couleur
+couleur,
+Position position
+);
 
-    virtual std::list<Mouvement> getPossibleMoves(const Plateau &plateau) const;
+
+virtual std::list<Deplacement> getPossibleMoves(const Plateau &plateau) const;
 
 };;
-
-
 
 
 #endif //CHESSVARIANTS_ROI_H

@@ -7,19 +7,23 @@
 
 
 #include <string>
+#include "Position.h"
+#include "Piece.h"
 
 class Fou {
-        public:
+public:
 
-        std::string toString() ;
+    std::string toString();
 
-//    Fou(Piece::Couleur couleur, Position position );
+    Fou(Piece::Couleur couleur, Position position);
+
+    virtual std::list<Deplacement> getPossibleMoves(const Plateau &plateau) const;
 
 
-        //   virtual std::list<Mouvement> getPossibleMoves(const Plateau &plateau) const;
+    virtual Piece *clone() const;
 
-    };;
 
+};;
 
 
 #endif //CHESSVARIANTS_FOU_H

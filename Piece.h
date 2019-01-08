@@ -5,6 +5,9 @@
 #ifndef CHESSVARIANTS_PIECE_H
 #define CHESSVARIANTS_PIECE_H
 
+#include "Deplacement.h"
+#include "Plateau.h"
+
 enum Figure {
 	Roi, Reine, Pion, Cavalier, Tour, Fou
 };
@@ -30,7 +33,8 @@ public:
 
     bool estCapture() const;
 
-    //  bool isMoveValid(Plateau &plateau, Deplacement &deplacement ) const ;
+    bool isMoveValid(Plateau &plateau, Deplacement &deplacement ) const ;
+    static id Tour;
 };
 
 

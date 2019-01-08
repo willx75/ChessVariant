@@ -1,6 +1,6 @@
 //
 // Created by will2 on 05/01/2019.
-//
+
 
 #ifndef CHESSVARIANTS_TOUR_H
 #define CHESSVARIANTS_TOUR_H
@@ -9,28 +9,25 @@
 #include <string>
 #include "Piece.h"
 
-class Tour::
-
-public Piece{
-
 #include "Piece.h"
 #include "Plateau.h"
 #include "Position.h"
 
 
+class Tour : public Deplacement {
+
 public:
+     Tour(Couleur color, Position position);
 
-std::string toString();
+    // This function replaces the copyconstructor.
+    //   * @return un pointeur vers la nouvelle piece cloner
+    virtual Piece *clone() const;
 
-Tour(Piece::Couleur
-couleur,
-Position position
-);
+    virtual std::list<Deplacement> getDeplacementPossibles(const Plateau &plateau) const;
 
-
-virtual std::list <Mouvement> getPossibleMoves(const Plateau &plateau) const;
-
+    id type;
 };
+
 
 
 #endif //CHESSVARIANTS_TOUR_H
