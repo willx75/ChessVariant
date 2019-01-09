@@ -8,33 +8,51 @@
 #include "Deplacement.h"
 #include "Plateau.h"
 
-enum Figure {
-	Roi, Reine, Pion, Cavalier, Tour, Fou
-};
-enum Couleur {
-	Black, White
-};
-
 class Piece {
 
 protected:
 
     Couleur couleur;
     bool capture;
+    Figure type;
+    Position position;
+    bool deplacer;
 
 public:
-    Piece();
+    Piece(Couleur couleur, Position position);
+
+    virtual Piece *clone() const = 0;
+
     Piece(int color);
 
     int getType() const;
 
+    Couleur getCouleur() const;
 
-    void perform_capture();
+    void setCapture();
 
-    bool estCapture() const;
+    bool capturer() const;
 
-    bool isMoveValid(Plateau &plateau, Deplacement &deplacement ) const ;
-    static id Tour;
+    bool deplacementValide(Plateau &plateau, Deplacement &deplacement) const;
+    virtual std::list<Deplacement> deplacementPossible(const Plateau &plateau) const = 0;
+
+    Figure getType() const;
+
+    Position getPosition() const;
+
+     Position setPosition(Position position);
+
+    bool estDeplace() const;
+
+
+
+    enum Figure {
+        Roi, Reine, Pion, Cavalier, Tour, Fou
+    };
+    enum Couleur : bool {
+        Black, White
+    };
+
 };
 
 

@@ -3,20 +3,19 @@
 //
 
 #include "Fou.h"
-#include "Bishop.h"
-#include "Board.h"
+#include "Plateau.h"
 
-Bishop::Bishop(Chessman::Colour colour, Position position)
-        : StraightLineMover(colour, position) {
-    this->type = Chessman::Bishop;
+Fou::Fou(Plateau::Couleur couleur, Position position)
+{
+    this->type = Piece::Fou;
 }
 
-Chessman* Bishop::clone() const {
-    return new Bishop(*this);
+Piece* Fou::clone() const {
+    return new Fou(*this);
 }
 
-std::list<Move> Bishop::getPossibleMoves(const Board &board) const {
-    std::list<Move> moves;
+std::list<Deplacement> ::getPossibleDeplacements(const Board &board) const {
+    std::list<Deplacement> Deplacements;
     if (!isCaptured()) {
         bool leftTop = true;
         bool rightTop = true;
@@ -25,12 +24,12 @@ std::list<Move> Bishop::getPossibleMoves(const Board &board) const {
         int i = 1;
 
         while (leftTop || rightTop || leftBottom || rightBottom) {
-            checkMove(board, moves, leftTop, i, -i);
-            checkMove(board, moves, rightTop, i, i);
-            checkMove(board, moves, leftBottom, -i, -i);
-            checkMove(board, moves, rightBottom, -i, i);
+            checkDeplacement(board, Deplacements, leftTop, i, -i);
+            checkDeplacement(board, Deplacements, rightTop, i, i);
+            checkDeplacement(board, Deplacements, leftBottom, -i, -i);
+            checkDeplacement(board, Deplacements, rightBottom, -i, i);
             i++;
         }
     }
-    return moves;
+    return Deplacements;
 }
