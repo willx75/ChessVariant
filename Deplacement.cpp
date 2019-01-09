@@ -3,7 +3,6 @@
 //
 
 #include "Deplacement.h"
-#include "Deplacement.h"
 #include "Position.h"
 
 Deplacement::Deplacement(Position debut, Position fin)

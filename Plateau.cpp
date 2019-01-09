@@ -28,7 +28,7 @@ void Plateau::affichePlateau() {
     for (int i = 0; i < 8; ++i) {
         std::cout << i + 1 << " │ ";
         for (int j = 0; j < 8; ++j) {
-            affichePiece(plateau->getPiece(Position(i, j)));
+            affichePiece(plateau.getPiece(Position(i, j)));
             std::cout << " │ ";
         }
         std::cout << " " << i + 1 << std::endl;
@@ -79,7 +79,7 @@ void affichePiece(Piece const *piece) {
                 break;
         }
     } else {
-        switch (piece-> getType()) {
+        switch (piece->getType()) {
             case Piece::Fou :
                 std::cout << "F";
                 break;
@@ -89,7 +89,7 @@ void affichePiece(Piece const *piece) {
             case Piece::Cavalier :
                 std::cout << "C";
                 break;
-            case Pion::Pion :
+            case Piece::Pion :
                 std::cout << "P";
                 break;
             case Piece::Reine :
@@ -120,5 +120,4 @@ void affichePiece(Piece const *piece) {
     }
 
 
-
-
+}

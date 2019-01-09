@@ -44,6 +44,17 @@ public:
 
     bool estDeplace() const;
 
+    bool isCapture() const;
+
+    bool isDeplacer() const;
+
+    void setCouleur(const Couleur &couleur);
+
+    void setCapture(bool capture);
+
+    void setType(const Figure &type);
+
+    void setDeplacer(bool deplacer);
 
 
     enum Figure {

@@ -14,7 +14,7 @@
 class Plateau {
 
 public:
-    Plateau();
+     Plateau();
 
     Plateau(const Plateau &plateau);
 

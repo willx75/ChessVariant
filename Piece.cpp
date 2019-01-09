@@ -7,11 +7,13 @@
 
 using namespace std;
 
-
-Piece::Piece(Couleur colour, Position position) :
+ Piece::Piece(Couleur colour, Position position) :
         couleur(couleur), capture(false), deplacer(false), position(position) {
 }
-
+/**
+ * GEtteur / Setteur
+ * @return
+ */
 Piece::Couleur Piece::getCouleur() const {
     return couleur;
 }
@@ -28,13 +30,37 @@ Piece::Figure Piece::getType() const {
     return this->type;
 }
 
+bool Piece::isCapture() const {
+    return capture;
+}
+
+bool Piece::isDeplacer() const {
+    return deplacer;
+}
+
 Position Piece::getPosition() const {
     return this->position;
 }
 
 void Piece::setPosition(Position position) {
-    this->deplacer = true;
     this->position = position;
+    this->deplacer = true;
+}
+
+void Piece::setCouleur(const Couleur &couleur) {
+    Piece::couleur = couleur;
+}
+
+void Piece::setCapture(bool capture) {
+    Piece::capture = capture;
+}
+
+void Piece::setType(const Figure &type) {
+    Piece::type = type;
+}
+
+void Piece::setDeplacer(bool deplacer) {
+    Piece::deplacer = deplacer;
 }
 
 bool Piece::estDeplace() const {

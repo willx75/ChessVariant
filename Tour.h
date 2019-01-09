@@ -17,7 +17,7 @@
 class Tour : public Deplacement {
 
 public:
-     Tour(Couleur color, Position position);
+     Tour(Position m_debut, Position m_fin, Piece::Couleur couleur, Position position);
 
     // This function replaces the copyconstructor.
     //   * @return un pointeur vers la nouvelle piece cloner

@@ -6,7 +6,13 @@
 #define CHESSVARIANTS_CAVALIER_H
 
 
+#include "Position.h"
+#include "Piece.h"
+
 class Cavalier {
+    Cavalier(Piece::Couleur couleur, Position position);
+    virtual Piece* clone() const;
+    virtual std::list<Deplacement> deplacementPossible(const Plateau &plateau) const;
 
 };
 

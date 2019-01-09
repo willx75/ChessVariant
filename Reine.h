@@ -20,7 +20,7 @@ std::string toString() ;
 Reine(Piece::Couleur couleur, Position position );
 
 
-virtual std::list<Deplacement> getPossibleMoves(const Plateau &plateau) const;
+virtual std::list<Deplacement> deplacementValide(const Plateau &plateau) const ;
 
 };
 
