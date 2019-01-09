@@ -7,9 +7,10 @@
 
 using namespace std;
 
- Piece::Piece(Couleur colour, Position position) :
+Piece::Piece(Couleur colour, Position position) :
         couleur(couleur), capture(false), deplacer(false), position(position) {
 }
+
 /**
  * GEtteur / Setteur
  * @return
@@ -18,6 +19,9 @@ Piece::Couleur Piece::getCouleur() const {
     return couleur;
 }
 
+//void perform_capture() {
+//  this->capture = true ;
+//}
 void Piece::setCapture() {
     this->capture = true;
 }

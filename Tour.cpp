@@ -23,7 +23,7 @@ Tour::Tour(Position m_debut, Position m_fin, Piece::Couleur couleur, Position po
  * @param plateau
  * @return une liste de deplacement possible pour la piece Tour
  */
-    std::list<Deplacement> Tour::getDeplacementPossibles(const Plateau &plateau) const {
+    std::list<Deplacement> Tour::deplacementPossible(const Plateau &plateau) const {
         std::list<Deplacement> deplacement;
         if (!isCaptured()) {
             bool haut = true;
@@ -45,3 +45,4 @@ Tour::Tour(Position m_debut, Position m_fin, Piece::Couleur couleur, Position po
         }
         return deplacement;
     }
+

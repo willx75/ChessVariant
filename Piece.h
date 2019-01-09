@@ -38,7 +38,7 @@ public:
 
     Figure getType() const;
 
-    Position getPosition() const;
+    Position    getPosition() const;
 
      Position setPosition(Position position);
 
